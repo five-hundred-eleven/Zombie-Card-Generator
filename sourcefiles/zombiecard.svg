@@ -15,8 +15,8 @@
    id="svg2820"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="zombiecardBlank.svg"
-   inkscape:export-filename="/home/cowley/Pictures/zombieshops/zombiecard.png"
+   sodipodi:docname="zombiecard.svg"
+   inkscape:export-filename="/media/shared/Dropbox/photoshops/generator/sourcefiles/zombiecard.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -287,8 +287,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.85146136"
-     inkscape:cx="366.38244"
-     inkscape:cy="344.66437"
+     inkscape:cx="727.29779"
+     inkscape:cy="390.65977"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -470,51 +470,51 @@
          sodipodi:role="line"
          x="588.89124"
          y="902.49164"
-         id="tspan3961">STR </tspan></text>
+         id="tspan3961">STR: </tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="710.33575"
-       y="936.38873"
+       x="710.97217"
+       y="936.91272"
        id="text3963"><tspan
          sodipodi:role="line"
          id="tspan3965"
-         x="710.33575"
-         y="936.38873">POW</tspan><tspan
+         x="710.97217"
+         y="936.91272">POW:</tspan><tspan
          sodipodi:role="line"
-         x="710.33575"
-         y="961.99451"
+         x="710.97217"
+         y="962.51849"
          id="tspan3967" /></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="852.99652"
-       y="936.63269"
+       x="853.36047"
+       y="936.91272"
        id="text3969"><tspan
          sodipodi:role="line"
          id="tspan3971"
-         x="852.99652"
-         y="936.63269">SIZ</tspan></text>
+         x="853.36047"
+         y="936.91272">SIZ:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="583.03851"
-       y="970.28595"
+       x="586.70074"
+       y="970.77368"
        id="text3973"><tspan
          sodipodi:role="line"
          id="tspan3975"
-         x="583.03851"
-         y="970.28595">EDU</tspan></text>
+         x="586.70074"
+         y="970.77368">EDU:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="710.09198"
-       y="968.82275"
+       y="971.06372"
        id="text3977"><tspan
          sodipodi:role="line"
          id="tspan3979"
          x="710.09198"
-         y="968.82275">IDEA</tspan></text>
+         y="971.06372">IDEA:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -524,37 +524,37 @@
          sodipodi:role="line"
          id="tspan3983"
          x="822.51349"
-         y="970.77368">KNOW</tspan></text>
+         y="970.77368">KNOW:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="715.45691"
-       y="901.51611"
+       x="715.73328"
+       y="902.78168"
        id="text3990"><tspan
          sodipodi:role="line"
          id="tspan3992"
-         x="715.45691"
-         y="901.51611">DEX</tspan></text>
+         x="715.73328"
+         y="902.78168">DEX:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="852.99652"
-       y="900.05292"
+       x="854.80078"
+       y="902.78168"
        id="text3994"><tspan
          sodipodi:role="line"
          id="tspan3996"
-         x="852.99652"
-         y="900.05292">INT</tspan></text>
+         x="854.80078"
+         y="902.78168">INT:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.48462486px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="583.28229"
-       y="934.6817"
+       x="584.66028"
+       y="936.91272"
        id="text3998"><tspan
          sodipodi:role="line"
          id="tspan4000"
-         x="583.28229"
-         y="934.6817">CON</tspan></text>
+         x="584.66028"
+         y="936.91272">CON:</tspan></text>
     <image
        y="304.36218"
        x="948"
@@ -573,22 +573,6 @@
          id="tspan3223"
          x="986.53918"
          y="262.5694" /></text>
-    <path
-       sodipodi:type="star"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.61980844;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3800"
-       sodipodi:sides="5"
-       sodipodi:cx="237.14285"
-       sodipodi:cy="406.64789"
-       sodipodi:r1="133.72221"
-       sodipodi:r2="108.18355"
-       sodipodi:arg1="-0.3149939"
-       sodipodi:arg2="0.31332463"
-       inkscape:flatsided="true"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 364.2857,365.21932 315.83306,514.76579 158.63323,514.897 109.93103,365.43161 237.03124,272.92572 364.2857,365.21932 z"
-       transform="matrix(1.4621781,2.5519753e-4,-2.5519753e-4,1.4621781,417.88115,60.83256)" />
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"

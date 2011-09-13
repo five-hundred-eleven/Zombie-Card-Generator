@@ -1,0 +1,6 @@
+*.swp 
+*.ttf
+*.otf
+generated/
+sourcepics/
+players.csv
