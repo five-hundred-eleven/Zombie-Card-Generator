@@ -75,7 +75,7 @@ def pentCoordSeq( distance ):
 def pentStatSeq( statslst ):
   coordlst, i = [], 0
   for item in statslst:
-    coordlst.extend( getPentagonCoords(i, int(item)*1.52 + 38) )
+    coordlst.extend( getPentagonCoords(i, int(item)*1.6 + 30) )
     i = i + 1
   return coordlst
 
@@ -129,43 +129,23 @@ for line in data:
   for c in range(10, 19):
     draw.text(statsPosition((c-10) % 3, (c-1)/3 - 3), line[c], statsFontColor, statsFont )
 
-  adraw = aggdraw.Draw(img)
 
-  medBlackPen = aggdraw.Pen( "black", 1 )
-  heavyBlackPen = aggdraw.Pen( "black", 3 )
-  backgroundBrush = aggdraw.Brush( "white" ) 
-  statsBrush = aggdraw.Brush( "red" )
+#  medBlackPen = aggdraw.Pen( "black", 1 )
+#  backgroundBrush = aggdraw.Brush( "white" ) 
+#  statsBrush = aggdraw.Brush( "red" )
 
   outline = pentCoordSeq( 190 )
-  adraw.polygon(outline, backgroundBrush)
+  draw.polygon(outline, fill=(255,255,255), outline=(0,0,0))
 
   statsOutline = pentStatSeq( line[5:10] )
-  adraw.polygon(statsOutline, statsBrush)
+  draw.polygon(statsOutline, fill=pentagonColor)
   
-  adraw.polygon(outline, heavyBlackPen)
-
-  for p in range(1,5):
+  for p in range(0,5):
     outline = pentCoordSeq( 190 - p*38 )
-    adraw.polygon(outline, medBlackPen)
-  
-  adraw.flush()
-  
-  if line[19]:
-    profilepic = path.abspath( imageDirectory + line[19] )
-  else:
-    profilepic = path.abspath( imageDirectory + name + ".jpg" )
-
-  if path.exists( profilepic ):
-    profilepic = Image.open( profilepic )
-  else:
-    print "Error: Profile picture not found for " + name
-    profilepic = False 
-
-  if profilepic:
-    profileLocation = (75, 145, 472, 475)
-    frameXSz = profileLocation[2] - profileLocation[0]
-    frameYSz = profileLocation[3] - profileLocation[1]
-    profilepic = profilepic.resize((frameXSz, frameYSz))
-    img.paste(profilepic, profileLocation)
+    draw.polygon(outline, outline=(0,0,0))
 
   img.save( exportDirectory + name + ".png" )
+
+
+
+
